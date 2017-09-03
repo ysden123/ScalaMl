@@ -7,12 +7,12 @@ version := "0.99"
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-   "org.apache.commons" % "commons-math3" % "3.5",
-   "org.jfree" % "jfreechart" % "1.0.17",
+   "org.apache.commons" % "commons-math3" % "3.6.1",
+   "org.jfree" % "jfreechart" % "1.0.19",
    "com.typesafe.akka" %% "akka-actor" % "2.3.4",
-   "org.apache.spark" %% "spark-core" % "1.5.0",
-   "org.apache.spark" %% "spark-mllib" % "1.5.0",
-   "org.scalatest" %% "scalatest" % "2.2.2"
+   "org.apache.spark" %% "spark-core" % "2.2.0",
+   "org.apache.spark" %% "spark-mllib" % "2.2.0",
+   "org.scalatest" %% "scalatest" % "3.0.4"
 )
 
 // Resolver for Apache Spark framework
