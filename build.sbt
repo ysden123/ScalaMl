@@ -4,7 +4,7 @@ name := "ScalaMl"
 
 version := "0.99"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
    "org.apache.commons" % "commons-math3" % "3.5",
